@@ -6,21 +6,21 @@
 
 ## Framework
 
-**Next.js** (recommended)
+**Hono** (recommended)
 
-Next.js is the most widely adopted full-stack TypeScript framework. It combines a React frontend, server-side rendering, and API routes in a single project — eliminating the overhead of maintaining separate frontend and backend repositories.
+Hono is a lightweight, fast, web-standards-based framework for server-side TypeScript. It runs on Node.js and is designed for building clean REST APIs with minimal overhead.
 
-Reasons for choosing Next.js:
+Reasons for choosing Hono:
 
-- Popular, well-documented, and widely supported (aligns with Mary's "popular stack" requirement)
-- API routes provide a clean server-side layer without needing a separate Express server
-- React-based UI with SSR/SSG for fast, SEO-friendly pages in modern browsers (aligns with Steve's requirements)
-- File-system routing keeps the project structure predictable
-- Strong TypeScript support out of the box
+- Lightweight and fast — no bloat, just routing and middleware
+- First-class TypeScript support
+- Web-standards API (Request/Response) keeps the code portable
+- Simple, explicit routing aligns well with a spec-driven approach
+- Popular and actively maintained (aligns with Mary's "popular stack" requirement)
 
 ## Frontend
 
-- **React** (via Next.js)
+- **React** — served separately or via static export
 - **Tailwind CSS** — utility-first styling for a modern, attractive UI without heavy custom CSS
 
 ## Database
