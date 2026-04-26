@@ -6,7 +6,7 @@ High-level implementation order in very small phases. Each phase delivers workin
 
 ## Phase 1 — Project Scaffold
 
-- Initialize Next.js project with TypeScript
+- Initialize Hono project with TypeScript
 - Configure Tailwind CSS
 - Deploy a hello-world home page with the AgentClinic name and tagline
 
