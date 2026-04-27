@@ -39,6 +39,10 @@ HTTP status must be `200 OK`. Response body must be HTML and must contain:
 
 `tsconfig.json` must contain `"strict": true`.
 
+### 6. CSS includes responsive media query
+
+`static/style.css` must contain at least one `@media` rule that adjusts layout for narrow viewports (max-width: 640px), covering `header`, `main`, and `footer` padding at minimum.
+
 ## Not Required
 
 - No automated tests needed for this phase
